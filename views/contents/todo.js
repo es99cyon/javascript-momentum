@@ -24,7 +24,6 @@ function handleSubmit(event) {
 function paintToDo(text) {
     const li = document.createElement("li"); 
     const delBtn = document.createElement("button");
-    // TODO innerText 가 정확하게 무슨 역할을하는지 설명을 봐도 이해가 안됨...
     delBtn.innerText = "✖";
     delBtn.addEventListener("click", deleteToDo);
     const span = document.createElement("span");
